@@ -10,3 +10,6 @@ A repo-ba töltöm fel az éppen hallgatott Szerver oldali JavaScript tárgyra k
 
 [Tantárgyi adatlap](https://portal.vik.bme.hu/kepzes/targyak/VITMAV42/)
 
+
+###### Kapcsolat
+Bármi felmerülő probléma esetén: toth.bence [AT] simonyi [DOT] bme [DOT] hu
