@@ -52,7 +52,7 @@ gulp.task("browserSync", function() {
   });
 });
 
-gulp.task("watch", ["browserSync", "sass", "src", "minify-css"], function() {
+gulp.task("watch", ["browserSync", "sass", "src", "minify-css", "copy_materialize"], function() {
   gulp.watch("app/style/**/*.scss", ["sass", "minify-css"]);
   gulp.watch("app/src/**/*.html", ["src"]);
 });
