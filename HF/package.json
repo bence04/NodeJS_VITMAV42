@@ -12,5 +12,8 @@
     "colors": "^1.1.2",
     "express": "^4.16.2",
     "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
