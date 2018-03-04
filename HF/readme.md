@@ -1,1 +1,3 @@
-Run project: npm run dev
+Run project: 
+npm install
+npm run dev
