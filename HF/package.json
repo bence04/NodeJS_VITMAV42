@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-sass": "gulp watch",
     "watch-server": "nodemon index.js",
-    "dev": "npm run watch-sass"
+    "dev": "npm run watch-sass & npm run watch-server"
   },
   "author": "Tóth Bence - KTOGUI",
   "license": "ISC",
