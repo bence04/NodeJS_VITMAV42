@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "gulp watch",
+    "watch-server": "nodemon index.js",
+    "dev": "npm run watch-sass"
   },
   "author": "Tóth Bence - KTOGUI",
   "license": "ISC",
