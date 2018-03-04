@@ -1,1 +1,1 @@
-body{background:red}.test{background:#00f}.test p{color:#ff0}
+@charset "UTF-8";.wrapper,.wrapper-background{width:100%;height:100vh}*{margin:0;padding:0}.wrapper-background{position:absolute;background-image:url(../img/1.jpg);background-size:cover}.login-panel{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#ffefd5;padding:20px}
