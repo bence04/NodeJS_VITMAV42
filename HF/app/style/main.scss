@@ -25,6 +25,15 @@
 
 .login-panel {
   @include centerer;
-  background: papayawhip;
-  padding: 20px;
+  background: #f5f5f5;
+  padding: 3em;
+  min-width: 700px;
+}
+
+.login-logo {
+    margin-bottom: 2em;
+}
+
+.login-btn {
+    margin-top: 1em;
 }

@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="assets/css/main.min.css">
 
     <title>TDLST</title>
 </head>
-<body>
-    
-    <div class="wrapper">
-        <div class="wrapper-background">
 
-        </div>
-        <div class="login-panel">
-            <h1>ASD LOGIN PANEL</h1>
+<body>
+
+    <div class="wrapper">
+        <div class="wrapper-background"></div>
+
+        <div class="login-panel center-align">
+            <img src="assets/img/logo.png" class="login-logo">
+            <div class="row">
+                <form>
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email" data-error="Hibás formátum">Email</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+
+                    <a href="main.html" class="col s12 login-btn btn waves-effect waves-light">
+                        login
+                    </a>
+
+                    <!-- button class="col s12 login-btn btn waves-effect waves-light" type="submit" name="action">
+                        Login
+                    </button -->
+                </form>
+            </div>
         </div>
     </div>
 
@@ -29,4 +50,5 @@
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/main.min.js"></script>
 </body>
+
 </html>
